@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: poppins;
+}
+
+
+/*Solo momentaneo para poder tener referencia el fondo conrrespecto a la cabecera*/
+div {
+    background: rgb(13,13,13);
+    background: linear-gradient(42deg, rgba(13,13,13,1) 0%, rgba(96,96,96,1) 77%, rgba(13,13,13,1) 91%);
+    height: 100vh;
+}
+
+/*Cabecera*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 2rem 1rem;
+    left: 5vw;
+    top: 1vw;
+    width: 90vw;
+    background: white;
+}
+
+header .logo {
+    width: 250px;
+    height: auto;
+}
+
+nav>form {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 25px;
+    
+}
+
+button {
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+}
